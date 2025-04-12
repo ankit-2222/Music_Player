@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mucify 🎵</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="music-player">
+    <div class="header">
+      <h2>Mucify 🎵</h2>
+      <img id="mode-logo" src="Resources/light.png" class="light" />
+    </div>
+
+    <div class="current-music">
+      <img class="current-song" src="Resources/Shri Kaal Bhairav Asatakam.jpeg" />
+      <div class="current-music-info">
+        <h3>Shri Kaal Bhairav Asatakam</h3>
+        <p>0:00</p>
+      </div>
+    </div>
+
+    <div class="controls">
+        <img src="Resources/previous.png" alt="previous" id="previous-btn" class="musicplayer-icon">
+        <img src="Resources/play.png" alt="play/pause" id="play-btn" class="musicplayer-icon">
+        <img src="Resources/next.png" alt="next" id="next-btn" class="musicplayer-icon">
+    </div>
+
+    <input type="range" id="progress-bar" value="0" min="0" max="100" />
+
+    <div class="song-list">
+      <h2>🎶 Songs</h2>
+      <div class="playlist">
+        <!-- Songs will be added dynamically -->
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
