@@ -175,12 +175,12 @@ body {
   transition: color 0.3s;
 }
 
-.footer span {
+.footer a {
   font-weight: bold;
   color: #8ae234;
   transition: color 0.3s ease;
 }
 
-.footer:hover span {
+.footer:hover a {
   color: #dfff00;
 }
